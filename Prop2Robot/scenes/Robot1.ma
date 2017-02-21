@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Robot1.ma
-//Last modified: Thu, Feb 16, 2017 03:45:05 PM
+//Last modified: Thu, Feb 16, 2017 03:42:51 PM
 //Codeset: UTF-8
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "4DD11501-174B-87FC-BBAF-4E9419CD8F59";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 3.5686544366239765 3.3332093316993165 -8.7119871733343501 ;
-	setAttr ".r" -type "double3" 3.261647262550301 4408.1999999977097 0 ;
+	setAttr ".t" -type "double3" -0.44668737550242421 3.0932401054103922 -5.6378006192936896 ;
+	setAttr ".r" -type "double3" 7.4616472625500867 4306.9999999977445 -2.0401352091732372e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "093C7312-9C4A-223D-45CC-D6B5815187FC";
 	setAttr -k off ".v" no;
