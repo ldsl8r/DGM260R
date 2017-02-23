@@ -1,10 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Robot1.ma
-<<<<<<< Updated upstream
 //Last modified: Wed, Feb 22, 2017 09:06:15 PM
-=======
-//Last modified: Tue, Feb 21, 2017 03:46:09 PM
->>>>>>> Stashed changes
 //Codeset: UTF-8
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -17,22 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "4DD11501-174B-87FC-BBAF-4E9419CD8F59";
 	setAttr ".v" no;
-<<<<<<< Updated upstream
 	setAttr ".t" -type "double3" 0.54566176411668221 5.0845351884821355 2.7199262638710349 ;
 	setAttr ".r" -type "double3" 343.46164703372386 3970.9999999999441 0 ;
-=======
-	setAttr ".t" -type "double3" -4.666616164425097 0.84254043710609294 0.44430424998947227 ;
-	setAttr ".r" -type "double3" 529.46164717011516 3867.3999999866141 0 ;
->>>>>>> Stashed changes
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "093C7312-9C4A-223D-45CC-D6B5815187FC";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-<<<<<<< Updated upstream
 	setAttr ".coi" 2.971803435999155;
-=======
-	setAttr ".coi" 1.7572874299330232;
->>>>>>> Stashed changes
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
